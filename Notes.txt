@@ -1,0 +1,115 @@
+			8051 Architecture(Father of micro-controller)
+					|
+					|
+		------------------------------------------------------
+		|						     |
+	Van neuman(Single memory)			Harward (2 seperate architecture RAM and ROM)
+
+Type of operation - CICS
+
+Controllers - 89C51,89C52,89S1,89S2
+
+8051 Features - 1. Voltage Consumption (3.5 to 5.5 volts)
+		2. Total Pins (40 pins)
+		3. I/O pins (32 pins)
+		4. RAM (128 bytes)
+		5. ROM (256 Bytes)
+		6. Timers (TO,T1)
+		7. Interrupts (Int0,Int1)
+		8. Temparature (-120 deg to +120 deg)
+		9. Frequency (12 Mhz)
+		10. Registers (Bank 0 -- Port 0.0 to 0.7)
+			      (Bank 1 -- Port 1.7 to 1.1)
+			      (Bank 2 -- Port 2.0 to 2.7)
+			      (Bank 3 -- Port 3.0 to 3.7)
+
+Software - Keil (Code developing and dumping)
+	   Proteus 7.7 (Circuit designing or simulation output)
+
+
+						EMBEDDED SYSTEM
+*The combination of hardware and software to a particular task
+Language -- Embedded C (Extension of C language -- Registers + C functions)
+
+
+AVR Achitecture (Advance RISC)
+Harward architecture
+Controllers -- ATmega8 , ATmega16, ATmega328P  (AT-Atmel Company , Mega- Memory size)
+Features (ATmega328P) -- Total Pins (28)
+			 I/O pins (23 -- 8+8+7)
+			 Power consumption (3.3v to 5.5V)
+			 Timers (2)
+			 Counters (2)
+			 Frequency (16 Mhzs)
+			 Ports (B,C,D)
+			 Temperature (-120 to +120 deg)
+			 RAM (512 bytes)
+			 ROM (1 KB)
+			 Registers( DDR - Data Direction Register
+				    PORT X (X=B,C,D) -- group of pins
+				    PIN )
+Softwares -- AVR Studio 4 or 6 (Code developing)
+	     Proteus 7.7 (Simulation or circuit designing)
+	     Prog ISP (Code dumbing) -- programmable in system programming
+
+Aurdino Controllers
+* Arduino Uno controller is used (AVR architecture)
+* EX: Arduino nano , mini, Uno, Mega, Duo
+* Features(ATMega328-P) -- Total pins (28)
+			   I/O pins (20 -- 14 digital pins , 6 ADC channels)
+			   RAM (1KB)
+			   ROM (2KB)
+			   Voltage (2.5 to 5.5V)
+			   Timer (2)
+			   UART channel 1 (1 trasmitter/reciever)
+			   Counters (2)
+			   Frequency (16 MHz)
+			   Register ( pinMode
+				      digitalWrite
+				      digitalRead
+				      analogRead
+				      analogWrite
+				      Serial.read
+				    )
+* Softwares --  Arduino IDE (Developing and Dumping)
+		Proteus (Simulation or circuit design)
+
+
+
+
+
+					|-------------------------------|
+					| 0				|
+					| 1				|
+					| 2				|
+					| 3				|
+					| 4				|
+					| 5				|
+					| 6	   ARDUINO UNO		|
+					| 7			     	|
+					| 8			     A5	|
+					| 9	   		     A4	|
+					| 10			     A3	|
+					| 11			     A2	|
+					| 12			     A1	|
+					| 13			     A0	|
+					|-------------------------------|
+
+Write a program to control a LED using Arduino Uno.
+
+		Arduino Uno (pin no. 13) --------> + LED - --------> GND
+
+Write a program to interface 3 LEDs with Arduino Uno
+Write a program to control a LED state (On/OFF)
+Write a program for traffic light system using Arduino Uno
+Write a program DC motor interfacing with Arduino Uno
+Write a program to rotate DC motor in Clock w/Anti-Clock W using Arduino
+
+
+								DIGITAL CENSORS
+*Examples: IR censor, Gas Censor, PIR Censor, Humidity, Soil Censor, Water level censor
+Write a program for IR censor and LED interfacing with Arduino Uno
+	IR censor -- Transmitter is LED , Receiver is Photo diode
+
+
+
