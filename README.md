@@ -1,2 +1,2 @@
-# IoT_Project
-Smart IV bag monitoring using Arduino
+# IoT_Projects
+These are some basic arduino based codes.
